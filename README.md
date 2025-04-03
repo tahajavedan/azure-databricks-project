@@ -13,7 +13,7 @@ Technologies Used
 
 * Python (PySpark for data transformation)
 
-##Key Features
+## Key Features
 
 * Data Ingestion: Raw data is ingested from CSV files containing race, driver, constructor, and lap times data.
 
