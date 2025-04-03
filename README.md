@@ -21,7 +21,8 @@ Technologies Used
 
 * Data Storage: Processed data is stored in Delta Lake format for scalability and optimized querying.
 
-![Formula 1 Data Pipeline](azure-databricks-project/folder_path.JPG)
+![Folder Path](folder_path.JPG)
+
 
 
 │
