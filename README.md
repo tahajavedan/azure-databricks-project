@@ -1,6 +1,6 @@
-End-to-End Formula 1 Data Engineering Pipeline with Azure Data Factory & Databricks
-Project Overview
-This project demonstrates the integration of Azure Data Factory (ADF) and Databricks to build an end-to-end data pipeline for processing Formula 1 racing data. The pipeline handles data ingestion, transformation, and storage using Delta Lake for optimized performance.
+# End-to-End Formula 1 Data Engineering Pipeline with Azure Data Factory & Databricks 
+## Project Overview
+### This project demonstrates the integration of Azure Data Factory (ADF) and Databricks to build an end-to-end data pipeline for processing Formula 1 racing data. The pipeline handles data ingestion, transformation, and storage using Delta Lake for optimized performance.
 
 Technologies Used
 Azure Data Factory (ADF)
