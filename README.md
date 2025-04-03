@@ -25,7 +25,6 @@ Technologies Used
 
 
 
-│
 ## Folder Breakdown:
 /ingestion: Contains the raw data files (CSV format) related to Formula 1 races, including information on races, drivers, constructors, lap times, pit stops, results, and qualifying sessions.
 
