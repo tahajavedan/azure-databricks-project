@@ -3,24 +3,25 @@
 ### This project demonstrates the integration of Azure Data Factory (ADF) and Databricks to build an end-to-end data pipeline for processing Formula 1 racing data. The pipeline handles data ingestion, transformation, and storage using Delta Lake for optimized performance.
 
 Technologies Used
-Azure Data Factory (ADF)
+* Azure Data Factory (ADF)
 
-Databricks (Apache Spark)
+* Databricks (Apache Spark)
 
-Delta Lake
+* Delta Lake
 
-Azure Data Lake Storage (ADLS)
+* Azure Data Lake Storage (ADLS)
 
-Python (PySpark for data transformation)
+* Python (PySpark for data transformation)
 
-Key Features
-Data Ingestion: Raw data is ingested from CSV files containing race, driver, constructor, and lap times data.
+##Key Features
 
-Data Transformation: Data is processed and transformed using PySpark in Databricks.
+* Data Ingestion: Raw data is ingested from CSV files containing race, driver, constructor, and lap times data.
 
-Data Storage: Processed data is stored in Delta Lake format for scalability and optimized querying.
+* Data Transformation: Data is processed and transformed using PySpark in Databricks.
 
-Folder Structure
+* Data Storage: Processed data is stored in Delta Lake format for scalability and optimized querying.
+
+## Folder Structure
 bash
 Copy
 Edit
@@ -46,7 +47,7 @@ Edit
 │   ├── common_functions.py     # Common functions for data transformation
 
 │
-Folder Breakdown:
+## Folder Breakdown:
 /ingestion: Contains the raw data files (CSV format) related to Formula 1 races, including information on races, drivers, constructors, lap times, pit stops, results, and qualifying sessions.
 
 /joins: Contains the aggregated data files after performing transformations, including constructor standings, driver standings, and race results.
@@ -55,7 +56,8 @@ Folder Breakdown:
 
 /notebooks: Contains Databricks notebooks for data transformation and analysis.
 
-Key PySpark Functions Used
+# Key PySpark Functions Used
+
 read.json(), read.csv(), read.parquet() – Loading data from various file formats.
 
 withColumn(), withColumnRenamed() – Adding and renaming columns in DataFrames.
@@ -74,7 +76,7 @@ StructType(), StructField() – Defining explicit schema for DataFrames.
 
 printSchema() – Displaying the structure of DataFrames for validation.
 
-What I Learned
+# What I Learned
 Delta Lake: Optimized data storage with ACID transactions.
 
 Data Pipeline Automation: Orchestrated workflows using Azure Data Factory.
