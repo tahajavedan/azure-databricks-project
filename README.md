@@ -21,30 +21,8 @@ Technologies Used
 
 * Data Storage: Processed data is stored in Delta Lake format for scalability and optimized querying.
 
-## Folder Structure
-bash
-Copy
-Edit
-/project-root
-│
-├── /ingestion
-│   ├── races.csv            # Race data
-│   ├── drivers.csv          # Driver details
-│   ├── constructors.csv     # Constructor (team) data
-│   ├── circuits.csv         # Circuit (track) data
-│   ├── laptimes.csv         # Lap times
-│   ├── pitfalls.csv         # Pit stop data
-│   ├── results.csv          # Race results
-│   └── qualifying.csv       # Qualifying session results
-│
-├── /joins
-│   ├── constructor_standings.csv  # Aggregated constructor standings
-│   ├── driver_standings.csv      # Aggregated driver standings
-│   └── race_results.csv          # Aggregated race results
-│
-├── /iculed
-│   ├── config.json             # Configuration settings
-│   ├── common_functions.py     # Common functions for data transformation
+![Formula 1 Data Pipeline](azure-databricks-project/folder_path.JPG)
+
 
 │
 ## Folder Breakdown:
